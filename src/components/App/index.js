@@ -1,4 +1,5 @@
-// import './App.css';
+// import './style.css';
+
 import { TodoCounter } from "../TodoCounter";
 import { TodoSearch } from "../TodoSearch";
 import { TodoList } from "../TodoList";
@@ -9,7 +10,7 @@ import React from "react";
 
 const todos = [
   { text: "Cortar cebolla", completed: false },
-  { text: "Tomar el curso de intro a React", completed: false },
+  { text: "Tomar el curso de intro a React", completed: true },
   { text: "Llora con la llorona", completed: false },
 ];
 

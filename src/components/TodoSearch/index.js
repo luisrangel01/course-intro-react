@@ -1,4 +1,7 @@
+import "./style.css";
+
 function TodoSearch() {
-  return <input placeholder="Cebolla" />;
+  return <input className="TodoSearch" placeholder="Cebolla" />;
 }
+
 export { TodoSearch };
