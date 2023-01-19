@@ -1,13 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./components/App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// function App() {
+//   return (React.createElement('h1',{id:'title'},'Oli React!'))
+// }
+
+// function App() {
+//   return (<h1 id="title">Oli React!!!</h1>)
+// }
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <App saludo="Oli Luis">Buenas!</App>
   </React.StrictMode>
 );
 
