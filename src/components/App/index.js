@@ -34,13 +34,34 @@ function App(props) {
     });
   }
 
+  const toggleCompleteTodo = (text) => {
+    const newTodos = [...todos];
+    const todoIndex = newTodos.findIndex((todo) => todo.text === text);
+    newTodos[todoIndex].completed = !newTodos[todoIndex].completed;
+    setTodos(newTodos);
+  };
+
+  const deleteTodo = (text) => {
+    const newTodos = [...todos];
+    const todoIndex = newTodos.findIndex((todo) => todo.text === text);
+    newTodos.splice(todoIndex, 1);
+    setTodos(newTodos);
+  };
+
   return (
     <React.Fragment>
       <TodoCounter total={totalTodos} completed={completedTodos} />
       <TodoSearch searchValue={searchValue} setSearchValue={setSearchValue} />
       <TodoList>
         {searchedTodos.map((todo, index) => {
-          return <TodoItem key={index} todo={todo} />;
+          return (
+            <TodoItem
+              key={index}
+              todo={todo}
+              toggleCompleteTodo={toggleCompleteTodo}
+              deleteTodo={deleteTodo}
+            />
+          );
         })}
       </TodoList>
       <CreateTodoButton />
