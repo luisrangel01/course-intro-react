@@ -6,17 +6,19 @@ import { TodoSearch } from "../TodoSearch";
 import { TodoList } from "../TodoList";
 import { TodoItem } from "../TodoItem";
 import { CreateTodoButton } from "../CreateTodoButton";
+import { Modal } from "../Modal";
+import { TodoForm } from "../TodoForm";
 
 function AppUI() {
-  console.log("Render (antes del use effect)");
-  React.useEffect(() => {
-    console.log("use effect");
-  }, []);
-
-  console.log("Render (luego del use effect)");
-
-  const { error, loading, searchedTodos, toggleCompleteTodo, deleteTodo } =
-    React.useContext(TodoContext);
+  const {
+    error,
+    loading,
+    searchedTodos,
+    toggleCompleteTodo,
+    deleteTodo,
+    openModal,
+    setOpenModal,
+  } = React.useContext(TodoContext);
 
   return (
     <React.Fragment>
@@ -72,7 +74,14 @@ function AppUI() {
           );
         }}
       </TodoContext.Consumer> */}
-      <CreateTodoButton />
+
+      {openModal && (
+        <Modal>
+          <TodoForm/>
+        </Modal>
+      )}
+
+      <CreateTodoButton setOpenModal={setOpenModal} />
     </React.Fragment>
   );
 }
