@@ -40,6 +40,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepage3": "./build",
-  "homepage": "https://github.com/luisrangel01/course-intro-react/build"
+  "homepage": "https://luisrangel01.github.io/course-intro-react"
 }
