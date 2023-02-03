@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/luisrangel01/course-intro-react/static/css/main.4bcc4bb1.css",
-    "main.js": "/luisrangel01/course-intro-react/static/js/main.765a76f7.js",
-    "static/js/787.0a57351d.chunk.js": "/luisrangel01/course-intro-react/static/js/787.0a57351d.chunk.js",
-    "index.html": "/luisrangel01/course-intro-react/index.html",
-    "static/media/check.svg": "/luisrangel01/course-intro-react/static/media/check.ff401defe3dfc89241e8db91b66f8d09.svg",
-    "static/media/close.svg": "/luisrangel01/course-intro-react/static/media/close.5172a6bd1af0caeb2407494a1874e9d1.svg",
-    "main.4bcc4bb1.css.map": "/luisrangel01/course-intro-react/static/css/main.4bcc4bb1.css.map",
-    "main.765a76f7.js.map": "/luisrangel01/course-intro-react/static/js/main.765a76f7.js.map",
-    "787.0a57351d.chunk.js.map": "/luisrangel01/course-intro-react/static/js/787.0a57351d.chunk.js.map"
+    "main.css": "/luisrangel01/course-intro-react/build/static/css/main.4bcc4bb1.css",
+    "main.js": "/luisrangel01/course-intro-react/build/static/js/main.c56e242a.js",
+    "static/js/787.0a57351d.chunk.js": "/luisrangel01/course-intro-react/build/static/js/787.0a57351d.chunk.js",
+    "index.html": "/luisrangel01/course-intro-react/build/index.html",
+    "static/media/check.svg": "/luisrangel01/course-intro-react/build/static/media/check.ff401defe3dfc89241e8db91b66f8d09.svg",
+    "static/media/close.svg": "/luisrangel01/course-intro-react/build/static/media/close.5172a6bd1af0caeb2407494a1874e9d1.svg",
+    "main.4bcc4bb1.css.map": "/luisrangel01/course-intro-react/build/static/css/main.4bcc4bb1.css.map",
+    "main.c56e242a.js.map": "/luisrangel01/course-intro-react/build/static/js/main.c56e242a.js.map",
+    "787.0a57351d.chunk.js.map": "/luisrangel01/course-intro-react/build/static/js/787.0a57351d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4bcc4bb1.css",
-    "static/js/main.765a76f7.js"
+    "static/js/main.c56e242a.js"
   ]
 }
